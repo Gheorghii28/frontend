@@ -123,6 +123,8 @@
     "EmptyCodingChallenge": "No Coding Challenge Found For This Lecture",
     "DeleteQuiz": "Delete Quiz",
     "Quiz": "Quiz",
+    "QuizCreated": "{count} {quizText} created by you",
+    "QuizCreatedByYou": "This quiz was created by you",
     "FEE": "Fee",
     "Output": "Output",
     "NoCodingChallengeCreated": "No Coding Challenge For This Challenge",
@@ -450,7 +452,7 @@
     "MyCertificates": "The certificates you got by doing an exam! Maybe they are already good to get a job? Or should you get more?",
     "GetMorphcoins": "Don't want to pay? You can get coins by other ways",
     "MoreComingSoon": "More coming soon...",
-    "CreatedBy": "Created by",
+    "CreatedBy": "Created by {user}",
     "And": "and",
     "LastUpdated": "Last Updated",
     "VerifyCertificate": "Please enter certificate password in order to view certificate.",
@@ -653,7 +655,9 @@
       "Any": "Any",
       "All": "All",
       "Booked": "Booked",
-      "Mine": "Mine"
+      "Mine": "Mine",
+      "AllUsers": "All Users",
+      "AllTypes": "All Types"
     },
     "Sort": {
       "Any": "@:List.Filter.Any",
@@ -787,7 +791,7 @@
     "UpdateQuiz": "Update Quiz",
     "CreateCodingChallenge": "Create Coding Challenge",
     "UpdateCodingChallenge": "Update Coding Challenge",
-    "AddNew": "Add New",
+    "AddNew": "Add New {item}",
     "SaveOutput": "Save Output",
     "SaveInput": "Save Input",
     "Save": "Save",

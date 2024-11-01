@@ -123,6 +123,8 @@
     "EmptyCodingChallenge": "Für diese Vorlesung wurde keine Programmieraufgabe gefunden",
     "DeleteQuiz": "Quiz löschen",
     "Quiz": "Quiz",
+    "QuizCreated": "{count} {quizText} von dir erstellt",
+    "QuizCreatedByYou": "Dieses Quiz wurde von dir erstellt",
     "Output": "Ausgang",
     "FEE": "Gebühr",
     "Fee": "Gebühr",
@@ -452,7 +454,7 @@
     "MyCertificates": "Die Zertifikate, die du aus Prüfungen bekommen hast! Vielleicht sind es ja schon genügend um einen Job zu bekommen? Oder solltest du mehr sammeln?",
     "GetMorphcoins": "Du willst kein Geld bezahlen? Die Coins kannst du auch auf andere Weise erhalten",
     "MoreComingSoon": "Mehr folgt bald...",
-    "CreatedBy": "Erstellt von",
+    "CreatedBy": "Erstellt von {user}",
     "And": "und",
     "LastUpdated": "Zuletzt aktualisiert",
     "VerifyCertificate": "Bitte gib das Zertifikatspasswort ein, um das Zertifikat anzuzeigen.",
@@ -655,7 +657,9 @@
       "Any": "Egal",
       "All": "Alle",
       "Booked": "Gebucht",
-      "Mine": "Eigene Ereignisse"
+      "Mine": "Eigene Ereignisse",
+      "AllUsers": "Alle Benutzer",
+      "AllTypes": "Alle Typen"
     },
     "Sort": {
       "Any": "@:List.Filter.Any",
@@ -792,7 +796,7 @@
     "CreateCodingChallenge": "Erstelle eine Coding Challenge",
     "UpdateCodingChallenge": "Coding Challenge aktualisieren",
     "Delete": "Beschreibung",
-    "AddNew": "Neue hinzufügen",
+    "AddNew": "Neue {item} hinzufügen",
     "AddTask": "Aufgabe hinzufügen",
     "SaveDescription": "Beschreibung speichern",
     "DeleteDescription": "Beschreibung löschen",

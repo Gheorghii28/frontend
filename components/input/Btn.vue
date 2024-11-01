@@ -61,6 +61,7 @@ export default defineComponent({
     icon: { type: Object, default: null },
     iconRight: { type: Boolean, default: false },
     iconColor: { type: String, default: "" },
+    item: { type: String, default: "" },
   },
   emits: ["click"],
   setup(props, { emit }) {

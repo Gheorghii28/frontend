@@ -1,8 +1,9 @@
 <template>
   <section>
-    <InputBtn class="my-7" full @click="openDialogAndAddNew()">{{
-      t("Buttons.AddNew")
-    }}</InputBtn>
+    <InputBtn class="my-7" full @click="openDialogAndAddNew()">
+      <PlusCircleIcon class="h-5 w-5" />
+      {{ t("Buttons.AddNew", { item: t("Buttons.Challenge") }) }}
+    </InputBtn>
 
     <div v-if="codingChallenges.length">
       <section
@@ -77,6 +78,7 @@ import {
   LockOpenIcon,
   EyeIcon,
   PencilSquareIcon,
+  PlusCircleIcon,
 } from "@heroicons/vue/24/outline";
 import type { PropType } from "vue";
 import { useDialogSlot } from "../../composables/dialogSlot";
@@ -155,6 +157,7 @@ export default {
     LockOpenIcon,
     EyeIcon,
     PencilSquareIcon,
+    PlusCircleIcon,
   },
 };
 </script>

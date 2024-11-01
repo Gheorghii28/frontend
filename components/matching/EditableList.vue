@@ -1,7 +1,8 @@
 <template>
   <div>
     <InputBtn class="my-7" full @click="openDialogAndAddNew()">
-      {{ t("Buttons.AddNew") }}
+      <PlusCircleIcon class="h-5 w-5" />
+      {{ t("Buttons.AddNew", { item: t("Buttons.Matching") }) }}
     </InputBtn>
     <section v-if="matchings?.length">
       <div
@@ -51,7 +52,11 @@
 <script lang="ts" setup>
 import { useDialogSlot } from "~~/composables/dialogSlot";
 import { useI18n } from "vue-i18n";
-import { TrashIcon, EyeIcon } from "@heroicons/vue/24/outline";
+import { 
+  TrashIcon, 
+  EyeIcon, 
+  PlusCircleIcon,
+} from "@heroicons/vue/24/outline";
 import type { matching } from "~/types/matching";
 
 const props = defineProps({
